@@ -9,3 +9,5 @@ for val in tree.findall('comments/comment'):
 	som+=int(val.find('count').text)
 print(som)
 #print(tree.findall('comments/comment'))
+#http://py4e-data.dr-chuck.net/comments_57354.xml
+#http://py4e-data.dr-chuck.net/comments_42.xml
